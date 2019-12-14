@@ -136,23 +136,48 @@
     
     
     <div class="col-12 col-md-8 m-auto">
-      <a href="/2019/12/14/hello-world/">
-        <p class="h4 index-header">Hello World</p>
+      <a href="/2019/12/14/learn-golang/">
+        <p class="h4 index-header">learn-golang</p>
         
         
           
         
         <div class="index-excerpt" >
-          <div class="index-text mb-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server$ hexo server
-More info: Server
-Generate static files$ hexo generate
-More info: Generating
-Deploy to remote sites$ hexo deploy
-More info: Deployment
-</div>
+          <div class="index-text mb-1">Go 学习笔记参考：A Tour of Go
+BasicsFunction
+
+支持无参数返回，直接返回已命名变量
+支持多值返回
+
+FlowcontrolFor
+
+循环只有 for, while 可视为缺省的 for
+死循环可以直接缺省写成 for { }
+
+If
+
+可以执行简单语句，如 if v := math.Pow(x, n); v &lt; lim
+if 定义的变量作用域为整个 if-else 代码块
+
+Switch
+
+可执行简单语句，作用域为整个 switch 代码块
+默认 case 之后执行 break, 如需往下执行需要以 fallthrough 结束
+case 无需常量，取值不必为整数
+无条件 switch 看做 switch true, case 可加条件判断简化长串 if-then-else
+
+Defer
+
+立即求值，外层函数返回后被调用
+被压在栈中，调用顺序为 LIFO
+
+MoretypesPointer
+
+var p *int 定义指向 int 的指针 p
+*p = 21 p 为指向 21 的指针
+p := &amp;21 定义一个指向 21 的指针 p
+
+Str</div>
         </div>
       </a>
 
@@ -161,6 +186,11 @@ More info: Deployment
           <i class="iconfont icon-riqi2"></i>&nbsp;2019-12-14&nbsp;&nbsp;
         
         
+        
+          <i class="iconfont icon-tag"></i>
+          
+            <a href="/tags/Go">Go</a>&nbsp;
+          
         
       </div>
     </div>
