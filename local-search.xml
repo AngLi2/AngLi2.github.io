@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>learn-reactivex</title>
+    <link href="undefined2019/12/27/learn-reactivex/"/>
+    <url>2019/12/27/learn-reactivex/</url>
+    
+    <content type="html"><![CDATA[<h1 id="ReactiveX-学习笔记"><a href="#ReactiveX-学习笔记" class="headerlink" title="ReactiveX 学习笔记"></a>ReactiveX 学习笔记</h1><blockquote><p>这篇文章是 ReactiveX 系列的学习笔记，ReactiveX 包含多语言的 Rx (全称 Reactive Extension) 版本，比如 rxjs, rxjava, rxgo 等，基本上属于可以融会贯通，举一反三的技术栈，对多语言场景十分友好。此文基于 RxJs 5, 不同语言和版本的行为可能有差异。</p></blockquote><p>本文的目的主要为了梳理知识，会记录一些需要学习的技能和链接，技术细节不在讨论范围之内。</p><h2 id="前置技术"><a href="#前置技术" class="headerlink" title="前置技术"></a>前置技术</h2><ul><li><p>编程范式：</p><ul><li>Reactive Programming</li><li>(Functional Programming)</li><li>(Functional Reactive Programming)</li></ul></li><li><p>观察者模式：</p><ul><li>Observer</li><li>Observable</li></ul></li><li><p>Side Effect</p></li></ul><h2 id="Reactive-相关知识"><a href="#Reactive-相关知识" class="headerlink" title="Reactive 相关知识"></a>Reactive 相关知识</h2><ul><li><p><a href="https://rxmarbles.com/" target="_blank" rel="noopener">Marble Diagrams</a></p></li><li><p>Observable Oprators</p><ul><li>Creaction Oprators</li><li>Conditional Oprators</li><li>Combination Oprators</li><li>Filtering Oprators</li><li>Mathmatical Oprators</li><li>Transformation Oprators</li><li>Ulitity Oprators</li></ul></li><li><p>Subject (Behavior, Replay, Async )</p><ul><li>Multicast</li><li>RefCount</li><li>Publish</li><li>Share</li></ul></li><li><p>Schedulers</p><ul><li>Queue</li><li>Asap</li><li>Async</li><li>Animation Frame</li></ul></li><li><p>观察者模式(O)</p></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>reactive</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>interview-issue-list</title>
     <link href="undefined2019/12/19/interview-issue-list/"/>
     <url>2019/12/19/interview-issue-list/</url>
